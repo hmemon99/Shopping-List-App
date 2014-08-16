@@ -84,14 +84,14 @@ table {
 	color: white;
 	font-weight: bold;
 }
-.listed-items {
+.listed-items li {
 	margin-top: 30px;
 	vertical-align: baseline;
 	color: white;
 	padding-top: 20px;
 	text-align: center;
 }
-.list-one {
+.listed-items p, .listed-items button {
 	display: inline-block;
 	vertical-align: baseline;
 	text-align: center;
@@ -112,7 +112,3 @@ button {
 	color: black;
 	border-radius: 5px;
 }
-#strikethrough {
-	text-decoration: line-through;
-}
-

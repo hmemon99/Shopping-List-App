@@ -5,30 +5,32 @@
 	<title></title>
 	<link rel="stylesheet"href="Shopping-List.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/shopping-list-app.js"></script>
+	<script src="Shopping-List.js"></script>
 </head>
 <body>
 	<div class="main">
 		<div class="list-background">
 			<h1 class="title">Shoplist.io</h1>
-			<form>
-				<input class="typehere"type="text" placeholder="Enter items here...">
-			</form>
-			<div class="listed-items">
-				<p class="list-one">Eggs</p>
-				<button class="list-one">Completed</button>
-				<button class="list-one">Remove</button>
-			</div>
-			<div class="listed-items">
-				<p id="strikethrough" class="list-one">Bread</p>
-				<button class="list-one">Completed</button>
-				<button class="list-one">Remove</button>
-			</div>
-			<div class="listed-items">
-				<p class="list-one">Cheese</p>
-				<button class="list-one">Completed</button>
-				<button class="list-one">Remove</button>
-			</div>
+				<input class="typehere"type="text" placeholder="Enter items here...">	
+				<div class="list-container">
+					<ul class="listed-items">
+						<li>
+							<p>Eggs</p>
+							<button class="completed-button">Completed</button>
+							<button class="remove-button">Remove</button>
+						</li>
+						<li>
+							<p>Bread</p>
+							<button class="completed-button">Completed</button>
+							<button class="remove-button">Remove</button>
+						</li>
+						<li>
+							<p>Cheese</p>
+							<button class="completed-button">Completed</button>
+							<button class="remove-button">Remove</button>
+						</li>	
+					</ul>	
+				</div>	
 		</div>
 	</div>
 </body>
